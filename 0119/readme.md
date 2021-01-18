@@ -22,7 +22,13 @@
 
 ***
 
-### 5. [4195] 친구 네트워크 (Gold2)
+### 5. [4358] 생태학 (Gold4)
+[문제보기](https://www.acmicpc.net/problem/4358)
+
+***
+
+### Special. [4195] 친구 네트워크 (Gold2)
+#### 이 문제는 안푸셔도 됩니다. Python으로 Union-Find 알고리즘 구현해보실 분만
 [문제보기](https://www.acmicpc.net/problem/4195)
 
 ---
