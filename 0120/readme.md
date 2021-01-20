@@ -17,12 +17,17 @@
 
 ***
 
-### 4. [1620] 나는야 포켓몬 마스터 이다솜 (Silver4)
+### 4. [1158] 요세푸스 문제 (Silver5)
+[문제보기](https://www.acmicpc.net/problem/1158)
+
+***
+
+### 5. [1620] 나는야 포켓몬 마스터 이다솜 (Silver4)
 [문제보기](https://www.acmicpc.net/problem/1620)
 
 ***
 
-### 5. [17214] 다항 함수의 적분 (Gold5)
+### 6. [17214] 다항 함수의 적분 (Gold5)
 [문제보기](https://www.acmicpc.net/problem/17214)
 
 ***
