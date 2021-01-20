@@ -21,6 +21,10 @@
 [문제보기](https://www.acmicpc.net/problem/1158)
 
 ***
+### Special. [1168] 요세푸스 문제 2 (Platinum5)
+[문제보기](https://www.acmicpc.net/problem/1168)
+
+***
 
 ### 5. [1620] 나는야 포켓몬 마스터 이다솜 (Silver4)
 [문제보기](https://www.acmicpc.net/problem/1620)
