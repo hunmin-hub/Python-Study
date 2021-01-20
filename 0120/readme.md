@@ -23,6 +23,7 @@
 ***
 ### Special. [1168] 요세푸스 문제 2 (Platinum5)
 [문제보기](https://www.acmicpc.net/problem/1168)
+이 문제는 안푸셔도됩니다. O(nlogn) 해법으로 푸실분만
 
 ***
 
