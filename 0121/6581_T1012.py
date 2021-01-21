@@ -11,7 +11,6 @@ for word in words :
     else :
         result_sentence.append(word)
 
-current_line_len=0
 hr=""
 temp_list=[]
 temp_line_text=""
