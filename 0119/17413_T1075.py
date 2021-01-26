@@ -1,28 +1,22 @@
 s = input()
-flag = 0
-list = []
-word = []
-reverse = []
+rev = True
+start = 0
+end = 0
+ret = []
 
-for c in s:
-    if flag:
-        word.append(c)
-        if (c == '>'):
-            flag = 0
-            list.append("".join(word))
-            word.clear()
-    else:
-        if c == '<':
-            flag = 1
-            word.append(c)
-            list.append("".join(reverse)[::-1])
-            reverse.clear()
-        elif c == ' ':
-            list.append("".join(reverse)[::-1])
-            list.append(" ")
-            reverse.clear()
-
-        else:
-            reverse.append(c)
-list.append("".join(reverse)[::-1])
-print("".join(list))
+for idx, c in enumerate(s):
+    end=idx
+    if c == '<':
+        ret.append("".join(reversed(s[start:end])))
+        start=idx
+        rev=False
+    if c == '>':
+        ret.append(s[start:end+1])
+        start=idx+1
+        rev=True
+    if c == ' ' and rev:
+        ret.append("".join(reversed(s[start:end])))
+        ret.append(' ')
+        start=idx+1
+ret.append("".join(reversed(s[start:end+1])))
+print("".join(ret))

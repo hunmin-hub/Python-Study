@@ -1,12 +1,13 @@
-from collections import deque
+import sys
 
-a, b = map(int, input().split())
+n, k = map(int, sys.stdin.readline().strip().split())
 
-deq = deque([i for i in range(1, a + 1)])
+arr = [i for i in range(1, n + 1)]
 ret = []
 i = 0
-while deq:
-    i = (i + b - 1) % len(deq)
-    ret.append(str(deq[i]))
-    del deq[i]
+
+for _ in range(n):
+    i = (i + (k - 1)) % len(arr)
+    ret.append(str(arr.pop(i)))
+
 print(f"<{', '.join(ret)}>")
