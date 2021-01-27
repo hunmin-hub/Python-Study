@@ -2,7 +2,12 @@
 ---
 ---
 
-### 1. [14731] 謎紛芥索紀 (Large) (Silver1)
+### 1. [14730] 謎紛芥索紀 (Small) (Bronze1)
+[문제보기](https://www.acmicpc.net/problem/14730)  
+
+***
+
+### 2. [14731] 謎紛芥索紀 (Large) (Silver1)
 [문제보기](https://www.acmicpc.net/problem/14731)   
  
 ***
